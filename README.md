@@ -11,7 +11,7 @@ Exercise on Databases: mondoDB.
 - Craft queries to return:
 
   - names of all celebrities in database
-  - number of celebrities in database who have children
-  - summary of total number of awards won grouped by birthplace
+  - number of celebrities in database who are singers
+  - summary of total number of movies grouped by sex (TODO)
 
 - Design some more queries!

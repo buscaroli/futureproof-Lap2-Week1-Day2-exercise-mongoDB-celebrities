@@ -17,12 +17,13 @@ db.celebs.insertMany([
     age: 59,
     birthplace: 'Owensboro',
     sex: 'M',
-    job: 'Actor',
+
     movies: [
       'Pirates of the Caribbeans',
       'Alice in WInderland',
       'Edward Scissorhands',
     ],
+    job: 'Actor',
   },
   {
     name: 'Arnold Schwarzenegger',

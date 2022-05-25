@@ -22,11 +22,5 @@ function getNames() {
 }
 
 function getNumberOfSingers() {
-  return db.celebs.aggregate([{ $count: { job: { $eq: 'Singer' } } }])
-}
-
-function getMoviesBySexOfActor() {
-  return db.celebs.aggregate([
-    { $group: { _id: '$sex' }, total: { $count: {} } },
-  ])
+  return db.celebs.count({ job: 'Singer' })
 }
